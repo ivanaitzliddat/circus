@@ -77,8 +77,7 @@ public class Circus {
         System.out.println("Position of Louie is: " + (animalArrayList.indexOf(louie) + 1));
 
         Cage<Duck> duckCage = new Cage<>();
-        //duckCage.lockUp(louie);
-        duckCage.lockUp(andy);
+        duckCage.lockUp(louie);
 
         Cage<Parrot> parrotCage = new Cage<>();
         parrotCage.lockUp(andy);
